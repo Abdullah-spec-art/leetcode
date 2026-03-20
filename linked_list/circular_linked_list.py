@@ -12,8 +12,9 @@ def cicular_linked_list(head):
         fast=fast.next.next
         if fast==slow:
             print("this is circular")
-            return
+            return True
     print("This is not circular")
+    return False
 
 node1 = Node(7)
 node2 = Node(11)
@@ -28,3 +29,4 @@ node4.next = node5
 # node5.next = node3
 
 cicular_linked_list(node1)
+
