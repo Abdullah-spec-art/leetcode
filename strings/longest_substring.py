@@ -1,4 +1,3 @@
-
 def longestSubstring(s):
     char_map={}
     left=0
@@ -13,3 +12,4 @@ def longestSubstring(s):
 
 s = "abcabcbb"
 print(longestSubstring(s))
+
