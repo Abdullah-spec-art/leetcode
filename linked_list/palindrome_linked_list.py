@@ -27,8 +27,6 @@ def reverselinkedlist(middle):
 def ispalindrome(head,reverse):
     half_1st=head
     half_2nd=reverse
-    # print(head.data)
-    # print(reverse.data)
     while half_2nd:
         if half_1st.data!=half_2nd.data:
             return "not a palindrome"
